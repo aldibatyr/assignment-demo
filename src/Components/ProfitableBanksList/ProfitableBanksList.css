@@ -1,0 +1,73 @@
+
+.headers {
+  width: calc(100% - 30px);
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.cards-section {
+  display: flex;
+}
+
+.link-to-list {
+  width: 100%;
+  padding: 5px 10px;
+  height: 40px;
+  border-radius: 30px;
+  background: #2CC8CE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff !important;
+  box-shadow: 4px 4px 12px #2cc9ce80;
+  transition: 0.15s ease-in-out;
+}
+
+.link-to-list:hover {
+  background: rgb(31, 141, 145);
+}
+
+.recommendation {
+  margin-top: 20px;
+}
+
+.recommendation-wrapper ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.recommendation-wrapper ul li {
+  display: inline-block;
+}
+
+.bank-card {
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 30px;
+  padding: 20px 10px;
+  background: linear-gradient(135deg, #24EBAE, #0F969B);
+  box-shadow: 6px 6px 16px #0F969B80;
+}
+
+.bank-name-wrapper {
+  width: 120px;
+  height: 120px;
+  border-radius: 120px;
+  background-color: rgba(36, 235, 175, 0.164);
+  box-shadow: 3px 3px 9px #0F969B, -3px -3px 9px rgba(212, 221, 221, 0.603);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bank-name {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+}

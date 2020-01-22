@@ -1,0 +1,22 @@
+.control-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background: #2CC8CE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff !important;
+  box-shadow: 4px 4px 12px #2cc9ce80;
+  transition: 0.15s ease-in-out;
+}
+
+.control-button:hover {
+  background: rgb(31, 141, 145);
+}
+
+.full-list-wrapper {
+  height: calc(100vh - 70px);
+  overflow-y: scroll;
+  overflow-x: visible;
+}

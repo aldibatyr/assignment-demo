@@ -1,0 +1,34 @@
+.user-controls {
+  width: 210px;
+  height: 70px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.user-controls > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+}
+
+.avatar-wrapper {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar-wrapper a svg {
+  color: black !important;
+  height: 24px;
+  width: 24px !important;
+}
+
+.settings-icon > a > svg {
+  color: black !important;
+  height: 24px;
+  width: 24px !important;
+}
